@@ -17,5 +17,32 @@ A = [4, 2, 2, 5, 1, 5, 8];
 */
 
 function solution(A) {
-	
+	const lengthA = A.length;
+	let totalA = 0;
+	let mean = 0;
+	let forNum = 0;
+
+	A.forEach((item) => {
+		totalA += item;
+	});
+
+	mean = totalA;
+
+	const count = (temArr, temNum, item, i) => {
+		
+	}
+
+	A.forEach((item, i) => {
+		let temNum = 0;
+		let temArr = [];
+		forNum += item;
+
+		if (i === 0) {
+			temNum = totalA - A[lengthA - 1];
+			temArr = A.slice(i, lengthA - 1);
+		} else {
+			temNum = totalA - forNum + item;
+			temArr = A.slice(i, lengthA);
+		}
+	});
 }
