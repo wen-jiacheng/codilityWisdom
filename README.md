@@ -44,3 +44,7 @@
 	* Fish                            *100*
 	* Nesting                         *100*
 	* StoneWall                       *100*
+
+* Lesson8-Leader
+	* Dominator                        *100*
+	* EquiLeader                       *---*

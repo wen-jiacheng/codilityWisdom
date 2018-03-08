@@ -71,7 +71,7 @@ function solution(A, B) {
 						answer--;
 						downArr.pop();
 				}
-		}
+			}
 		}
 	});
 
